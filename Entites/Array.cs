@@ -1,16 +1,16 @@
 namespace _03._12.Entites;
 
-public class Array : IOutput
+public class Arrayy : IOutput
 {
     public int[] Numbers;
     public int Size;
     
-    public Array()
+    public Arrayy()
     {
         Size = 0;
         Numbers = new int[0];
     }
-    public Array(int numbers)
+    public Arrayy(int numbers)
     {
         Size = 0;
         Numbers = new int[numbers];

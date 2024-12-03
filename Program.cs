@@ -10,11 +10,10 @@ class Program
         Console.InputEncoding = Encoding.Unicode;
         Console.OutputEncoding = Encoding.Unicode;
         
-        Array array = new Array();
+        Arrayy array = new Arrayy();
         array.Add(1);
         array.Add(2);
         array.Add(3);
-        array.Show();
         array.Show("Array:");
     }
 }
